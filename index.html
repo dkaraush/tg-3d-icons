@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Icons</title>
+<style>
+html, head, body {
+    background: #000;
+    margin: 0;
+}
+#icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-flex;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    padding: 10px;
+}
+#icons canvas {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+</style>
+</head>
+<body>
+<div id="icons">
+    <canvas id="star-premium"></canvas>
+<!--    <canvas id="biz-coin"></canvas>-->
+    <canvas id="stars"></canvas>
+    <canvas id="diamond"></canvas>
+</div>
+<script src="./gl-matrix-min.js"></script>
+<script src="./main.js" type="module"></script>
+</body>
+</html>
